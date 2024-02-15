@@ -10,10 +10,10 @@ This endeavor represents a synthesis of technological innovation and strategic b
 Before starting, make sure to download the dataset from [Oracle Database](https://docs.oracle.com/en/database/oracle/oracle-database/21/comsc/introduction-to-sample-schemas.html#GUID-E1EE89C5-2D4E-4C74-835C-74F775BAE4A0 "悬停显示")  
 
 ## Operational Database
-<img src="/image/ob.png" width = "250" height = "250" alt="cmo" />  
+<img src="/image/ob.png" width = "300" height = "350" alt="cmo" />  
 
 ## Star Schema
-<img src="/image/starschema.jpg" width = "350" height = "250" alt="cmo" />  
+<img src="/image/starschema.jpg" width = "450" height = "350" alt="cmo" />  
 
 ## ETL Model Diagram
 ### 1. T-SQL & Stored Procedures
