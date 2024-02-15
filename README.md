@@ -1,7 +1,9 @@
 # Analysis of Customer Orders in Retail Application  
 
 As the business bloom nowadays, the analysis of customer behavior becomes more and more important. By analysing the orders of customers, it will provide massive information for decision-makers. This project aims to harness these insights by creating a **database** and **data mart** within **SQL Server** to track custom orders and related information.   
+
 By analyzing **custom order data**, the initiative seeks to enhance inventory management and production efficiency, increase customer satisfaction through precise order status tracking, and forecast future demand. The deliverables encompass the development and deployment of an **operational database** and **data mart**, automation of the **ETL process**(Extract, Transform, and Load) via **SSIS** (SQL Server Integration Services), and the construction of a multi-dimensional cube using **SSAS** (SQL Server Analysis Services).   
+
 This endeavor represents a synthesis of technological innovation and strategic business analysis, designed to leverage data to inform decision-making and operational strategies, thereby fostering market competitiveness and customer engagement.  
 
 ## Database
