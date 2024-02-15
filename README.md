@@ -16,13 +16,13 @@ Before starting, make sure to download the dataset from [Oracle Database](https:
 <img src="/image/starschema.jpg" width = "350" height = "250" alt="cmo" />  
 
 ## ETL Model Diagram
-### 1.T-SQL & Stored Procedures
+### 1. T-SQL & Stored Procedures
 **DimStores (SCD Type 1)**: Records in the dimension table are directly updated without retaining the historical changes when the source data changes. Such an approach finds its utility in scenarios like the updating of store-related information, where the current state of data holds precedence over its historical iterations.  
 
 **DimProducts (SCD Type 2)**: This strategy facilitates the insertion of new records within the dimension table to maintain a ledger of historical changes, concurrently retaining older records. This methodology is instrumental in chronicling the evolution of product information over time, catering to use cases that necessitate the retention of historical data integrity.
 <img src="/image/etl.png" width = "700" height = "200" alt="cmo" />  
 
-### 2.SSIS Packages  
+### 2. SSIS Packages  
 **DimCustomer (SCD Type 2)**: DimCustomer dimension delineates the utilization of SSIS for managing SCD Type 2 alterations, showcasing the efficacy of SSIS in orchestrating the nuanced management and tracking of data modifications.  
 
 **DimShipment (SCD Type 1)**: DimShipment dimension illustrates the application of SSIS in managing SCD Type 1 modifications, highlighting the methodology of direct record updates without historical data preservation.  
